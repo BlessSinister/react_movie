@@ -7,7 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav {
+  padding: 0 1rem;
+}
+.content {
+  min-height: calc(100vh - 70px - 64px);
+  padding: 1.5rem 0;
+}
+.card {
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+}
+.card-image {
+  max-width: 100%;
+  width: 250px;
+}
+.type {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.card-title {
+  padding-left: 15px;
+}
+.movie__flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-btn {
+  background: #ff9800;
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+.filter-wrapper {
+  display: flex;
+  justify-content: space-around;
 }
